@@ -1,0 +1,162 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 01.75em;
+}
+
+p-blurb {
+  background-color: lightblue;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;  
+  font-family: Helvetica;
+  color: black;
+  overflow: hidden;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/* Simple Responsive Framework. */
+.section-chicken {
+
+  border: 1px solid black;
+  background-color: yellow;  
+  color: black;
+  font-size: 1.25em;
+  height: 26px;
+  text-align-last: center;
+  margin-right: 0;
+  margin-top: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.section-beef {
+  border: 1px solid black;
+  background-color: red;
+  color: black;
+  font-size: 1.25em;
+  height: 26px;
+  text-align-last: center;
+  margin-right: 0;
+  margin-top: 0;
+  padding-right: 0;
+  padding-top: 0;
+  
+  
+}
+.section-sushi {
+  border: 1px solid black;
+  background-color: salmon;
+  color: black;
+  font-size: 1.25em;
+  height: 26px;
+  text-align-last: center;
+  margin-right: 0;
+  margin-top: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    background-color: lightblue;
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+  }
+  .col-lg-1 {
+    width: 30%;
+    margin-left: 2%;
+  }
+  .col-lg-2 {
+    width: 30%;
+    margin-left: 3%;
+  }
+  .col-lg-3 {
+    width: 30%;
+    margin-left: 3%;
+  }
+  .section-lg {
+    position: relative;
+    top: 0;
+    left: 73%;
+    width: 30%;
+  
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    background-color: lightblue;
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .col-md-1 {
+    width: 48%;
+    margin-left: 0;
+  }
+  .col-md-2 {
+    width: 48%;
+    margin-left: 4%;
+  }
+  .col-md-3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .section-md-1 {
+    position: relative;
+    top: 0;
+    left: 88%;
+    width: 13%;
+    
+  }
+  .section-md-2 {
+    position: relative;
+    top: 0;
+    left: 77.5%;
+    width: 25%;
+    
+  }
+    
+}
+
+/********** Medium devices only **********/
+@media (max-width: 767px) {
+  .col-sm {
+    background-color: lightblue;
+    border: 1px solid black;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .section-sm {
+    position: relative;
+    top: 0px;
+    left: 75%;
+    width: 25%;
+    
+  }
+    
+}
